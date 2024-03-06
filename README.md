@@ -4,6 +4,6 @@ Sample DBT Models build using publicly available Google Analytics sessions data 
 
 # Environment used
 
-DBT Cloud
-Snowflake
-bigquery-public-data
+DBT Cloud<br>
+Snowflake<br>
+bigquery-public-data<br>
