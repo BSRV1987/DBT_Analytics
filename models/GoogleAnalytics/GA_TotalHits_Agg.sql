@@ -15,4 +15,4 @@ SELECT
 FROM
     HitData
 GROUP BY
-   date;
+   date
