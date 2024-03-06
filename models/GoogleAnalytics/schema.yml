@@ -13,7 +13,7 @@ models:
           - name: Date
             description: "The primary key for this table"
     - name: GA_TotalHits_Agg
-      description: "GoogleAnalytics Totals"
+      description: "GoogleAnalytics total entraces and exits"
       columns:
           - name: Date
             description: "The primary key for this table"
