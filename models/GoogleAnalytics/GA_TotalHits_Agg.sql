@@ -1,3 +1,6 @@
+/*
+If we dont materialize the table using config then by default it becomes a view.
+*/
 WITH HitData AS (
     SELECT date,
         TRY_PARSE_JSON(hits):hitNumber::INT AS hit_number,
