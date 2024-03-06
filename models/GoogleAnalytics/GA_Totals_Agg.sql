@@ -26,7 +26,7 @@ SELECT   date,
     SUM(TOTALS:uniqueScreenviews::INT) AS uniqueScreenviews,
     SUM(TOTALS:visits::INT) AS visits
 FROM
-  DBT_ANALYTICS.DBT_TRANSFORMATIONS.GA_SESSIONS
+  {{ ref('GA_Sessions') }}
   group by date
 
 )
