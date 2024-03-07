@@ -3,19 +3,19 @@ version: 2
 
 models:
     - name: GA_Sessions
-      description: "GoogleAnalytics Sessions"
+      description: '{{doc("data_model")}}'
       columns:
           - name: FULLVISITORID
             description: "The primary key for this table"
     - name: GA_Totals_Agg
-      description: "GoogleAnalytics Totals"
+      description: '{{doc("data_model")}}'
       columns:
           - name: Date
             description: "The primary key for this table"
             tests:
               - not_null              
     - name: GA_TotalHits_Agg
-      description: "GoogleAnalytics total entraces and exits"
+      description: '{{doc("data_model")}}'
       columns:
           - name: Date
             description: "The primary key for this table"
